@@ -1,5 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Brush Script MT (cursive);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3a3a3a;
+}
+
+        /* Header & logo */
+
+h1 {
+    font-family: Send Flowers;
+    letter-spacing: 8px;
+    color: #252525;
+}
+
+#logo {
+    font-size: 250%;
+}
+
+
+      /* Navigation bar & menu*/
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {
+    border-bottom: 2px solid black;
+}
+
+.active {
+    border-bottom: 2px solid black;
 }
 
 p {
