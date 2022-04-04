@@ -112,11 +112,24 @@ h1 {
     
 }
 #container {
-    width: 200px;
-    height: 200px
+    text-align: center;
+    margin: 50px 0;
+    font-size: large;
+    width: 90%;
+    height: 300px;
+    padding: 5px;
+    margin: 0 auto;
 }
 #coat-of-arms{
-    background-image: url(../images/Westport_Coat_of_Arms);
+    background: url(../images/Westport_Coat_of_Arms_XS.png);
+
+    background-position: center center; 
+    background-repeat: no-repeat;
+    
+    height: 230px; 
+    width: 100%;
+    object-fit: contain;
+
 }
 
 hr {
@@ -127,20 +140,22 @@ hr {
 
 #info-panel p {
     color: black;
+    text-align: justify;
 }
 #info-panel h3 {
     color: black;
     font-size: 120%;
 }
 #center-info-panel h2 {
-    margin: 20px 0;
+    margin: 15px 0;
     text-align: center;
     color: red;
 }
 #info-panel ul{
-    color: orange;
+    color: black;
     list-style-type: none;
 }
+
 
 
         /* Articles sections */
