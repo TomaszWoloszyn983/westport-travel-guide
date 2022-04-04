@@ -22,20 +22,7 @@ h1 {
     margin-top: 20px;
 }
 
-article h2 {
-    padding: 10px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    color: green;
-    border-top: 2px solid black;
-}
-article p {
-    margin-top: 20px;
-    margin-left: 40px;
-    color: green;
-    
-}
+
 
 #logo {
     font-size: 250%;
@@ -94,6 +81,83 @@ article p {
 
 .active {
     border-bottom: 2px solid black;
+}
+
+
+        /* Info panel */
+
+#info-panel {
+    height: 300px;
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#left-info-panel {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    
+}
+#right-info-panel {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+#center-info-panel {
+    width: 33%;
+    margin: 0 auto;
+    
+}
+#container {
+    width: 200px;
+    height: 200px
+}
+#coat-of-arms{
+    background-image: url(../images/Westport_Coat_of_Arms);
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#info-panel p {
+    color: black;
+}
+#info-panel h3 {
+    color: black;
+    font-size: 120%;
+}
+#center-info-panel h2 {
+    margin: 20px 0;
+    text-align: center;
+    color: red;
+}
+#info-panel ul{
+    color: orange;
+    list-style-type: none;
+}
+
+
+        /* Articles sections */
+
+article h2 {
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: green;
+    border-top: 2px solid black;
+}
+article p {
+    margin-top: 20px;
+    margin-left: 40px;
+    color: green;
+    
 }
 
         /* Images and pictures */
