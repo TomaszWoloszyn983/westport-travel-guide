@@ -21,6 +21,14 @@ h1 {
     margin-left: 30px;
     margin-top: 20px;
 }
+h2 {
+    font-family: inherit;
+    color: black;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-top: 2px solid black;
+}
 
 
 
@@ -150,6 +158,7 @@ hr {
     margin: 15px 0;
     text-align: center;
     color: red;
+    border: none;
 }
 #info-panel ul{
     color: black;
@@ -158,7 +167,17 @@ hr {
 
 
 
-        /* Articles sections */
+        /* Events sections */
+
+article {
+    background-color: white;
+    height: 150px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+
+}
 
 article h2 {
     padding: 10px;
@@ -168,10 +187,19 @@ article h2 {
     color: green;
     border-top: 2px solid black;
 }
+article h3 {
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: green;
+    border-top: 1px solid black;
+}
 article p {
-    margin-top: 20px;
+    width:80%;
     margin-left: 40px;
     color: green;
+    
+    /* white-space: nowrap; */
     
 }
 
