@@ -99,24 +99,29 @@ h2 {
     width: 60%;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-left: 20%;
     margin-right: 20%;
+    padding: 10px
+    
 }
 #left-info-panel {
     padding-top: 30px;
     width: 33%;
     float: left;
+    min-width: 50px;
     
 }
 #right-info-panel {
     padding-top: 30px;
     width: 33%;
     float: right;
+    min-width: 50px;
 }
 #center-info-panel {
     width: 33%;
     margin: 0 auto;
+    min-width: 50px;
     
 }
 #container {
@@ -197,10 +202,53 @@ article p {
     width:80%;
     margin-left: 40px;
     color: green;
-    
-    /* white-space: nowrap; */
-    
+  
 }
+
+        /* Contact section and Map */
+
+
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 55px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+
+
+
+        /* Footer */
+
+footer {
+    background-color: grey;
+    text-align: center;
+    width: 100%;
+    margin: 10px, 20px;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+
+}
+
+footer a {
+	color: black;
+	text-decoration: none;
+	padding: 0 15px;
+}
+footer a:hover {
+    border-bottom: 2px solid black;
+}
+
+
+
 
         /* Images and pictures */
 
