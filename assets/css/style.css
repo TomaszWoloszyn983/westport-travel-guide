@@ -150,9 +150,9 @@ h3 {
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid black;
     width: 100%;
-    margin: 5px 0;
+    margin: 15px 0;
 }
 
 #info-panel p {
@@ -179,12 +179,11 @@ hr {
         /* Events sections */
 
 article {
-    background-color: white;
-    height: 150px;
-    overflow: hidden;
+
+    height: fit-content;
+    /* overflow: visible; */
     margin-top: 20px;
-    margin-bottom: 20px;
-    overflow: auto;
+    margin-bottom: 40px;
 
 }
 
@@ -194,19 +193,20 @@ article h2 {
     margin-bottom: 20px;
     margin-left: 50px;
     color: green;
-    border-top: 2px solid black;
+    border-top: 2px dotted black;
 }
 article h3 {
     padding: 10px;
     margin-bottom: 20px;
     margin-left: 50px;
     color: green;
-    border-top: 1px solid black;
+    border-top: 1px dotted black;
 }
 article p {
     width:80%;
     margin-left: 40px;
     color: green;
+    background-color: white;
   
 }
 
@@ -257,6 +257,7 @@ article p {
     text-transform: uppercase;
 }
 
+
 #map-wrapper {
     padding: 20px;
     float: left;
@@ -264,7 +265,7 @@ article p {
     min-width: 400px;
     margin-bottom: 55px;
     margin-left: 50px;
-    border: 2px dotted black;
+
 }
 
 #map {
@@ -281,8 +282,8 @@ footer {
     background-color: grey;
     text-align: center;
     width: 100%;
-    height: 50px;
-    margin: 30px, 20px;
+    height: 40px;
+    /* margin-top: 30px; */
 
     position: fixed;
     bottom: 0;
@@ -299,6 +300,18 @@ footer a {
 footer a:hover {
     border-bottom: 2px solid black;
     color: #fff;
+}
+
+.return-button {
+    background-color: gray;
+    margin-bottom: 45px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+
 }
 
 
