@@ -78,10 +78,6 @@ hr {
 
       /* Navigation bar & menu*/
 
-#nav {
-    
-
-}
 
 #menu {
     margin: 15px;
@@ -187,9 +183,6 @@ hr {
 
         /* Events sections */
 
-#events {
-  
-}
 
 article {
 
@@ -377,7 +370,6 @@ p {
         /* History page */
 
 #history-header h1 {
-    /* padding: 10px; */
     margin: 10px;
     width: 100%;
     text-align: center;
@@ -422,5 +414,20 @@ p {
     padding: 10px;
     margin: 10px;
     position: relative;
+}
+
+
+        /* Gallery Page */
+
+#photos {
+    clear: both;
+    padding: 10px;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
 
