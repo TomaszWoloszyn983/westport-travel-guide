@@ -10,6 +10,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(223, 237, 236);
     color: black;
+    min-width: 550px;
 }
 
         /* Header & logo */
@@ -27,12 +28,18 @@ h2 {
     padding: 10px;
     margin-left: 50px;
     margin-top: 20px;
-    border-top: 2px solid black;
+    /* border-top: 2px solid black; */
 }
 h3 {
 
     padding: 30px 10px;
 
+}
+
+hr {
+    border-top: 2px solid black;
+    width: 100%;
+    margin: 15px 0;
 }
 
 
@@ -71,9 +78,13 @@ h3 {
 
       /* Navigation bar & menu*/
 
+#nav {
+    
+
+}
+
 #menu {
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin: 15px;
     font-size: 110%;
     letter-spacing: 4px;
 }
@@ -83,6 +94,7 @@ h3 {
     list-style-type: none;
     margin-right: 20px;
     margin-left: 20px;
+    padding: 5px;
 }
 #menu a {
     text-decoration: none;
@@ -97,17 +109,18 @@ h3 {
 }
 
 
+
         /* Info panel */
 
 #info-panel {
-    height: 300px;
+    height: fit-content;
     width: 60%;
     line-height: 20px;
     clear: both;
     margin-bottom: 20px;
     margin-left: 20%;
     margin-right: 20%;
-    padding: 10px
+    padding: 10px;
     
 }
 #left-info-panel {
@@ -149,11 +162,7 @@ h3 {
     background-size: cover;
 }
 
-hr {
-    border-top: 1px solid black;
-    width: 100%;
-    margin: 15px 0;
-}
+
 
 #info-panel p {
     color: black;
@@ -177,6 +186,10 @@ hr {
 
 
         /* Events sections */
+
+#events {
+  
+}
 
 article {
 
@@ -213,6 +226,7 @@ article p {
         /* Contact section and Map */
 
 #contact-container {
+    border-top: 2px solid black;
     width: 100%;
     height: 80px;
     margin-top: 20px;
@@ -257,6 +271,12 @@ article p {
     cursor: pointer;
     text-transform: uppercase;
 }
+.button:hover {
+    background-color: #8a8a8a;
+}
+.button:focus{
+    background-color: red;
+}
 
 
 #map-wrapper {
@@ -270,10 +290,8 @@ article p {
 }
 
 #map {
-/* width="400" height="300" */
     border: none;
 }
-
 
 
 
@@ -284,7 +302,6 @@ footer {
     text-align: center;
     width: 100%;
     height: 40px;
-    /* margin-top: 30px; */
 
     position: fixed;
     bottom: 0;
@@ -302,7 +319,11 @@ footer a:hover {
     border-bottom: 2px solid black;
     color: #fff;
 }
-
+.return {
+    text-align: center;
+    border-top: 2px dotted black;
+    padding: 10px;
+}
 .return-button {
     background-color: gray;
     margin-bottom: 45px;
@@ -312,7 +333,9 @@ footer a:hover {
     color: #fff;
     cursor: pointer;
     text-transform: uppercase;
-
+}
+.return-button:hover {
+    background-color: #8a8a8a;
 }
 
 
@@ -354,14 +377,27 @@ p {
         /* History page */
 
 #history-header h1 {
-
+    /* padding: 10px; */
+    margin: 10px;
+    width: 100%;
+    text-align: center;
 }
-#history-header img {
+#history-header > div {
+    margin: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: fit-content;
+}
+#main-photo {
+    background-position: center center; 
+    background-repeat: no-repeat;
     
-    padding: 20px;
-    width: auto;
-    max-width: 500px;
+    margin: auto;
+    width: 100%;
+    max-height: 500px;
+    background-size: auto;
 }
+
 
 .article-container {
     padding: 10px;
