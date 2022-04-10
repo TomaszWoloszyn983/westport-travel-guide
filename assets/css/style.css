@@ -10,7 +10,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(223, 237, 236);
     color: black;
-    min-width: 550px;
+    min-width: 450px;
 }
 
         /* Header & logo */
@@ -112,7 +112,6 @@ hr {
     height: fit-content;
     width: 60%;
     line-height: 20px;
-    clear: both;
     margin-bottom: 20px;
     margin-left: 20%;
     margin-right: 20%;
@@ -171,7 +170,7 @@ hr {
 #center-info-panel h2 {
     margin: 15px 0;
     text-align: center;
-    color: red;
+    color: black;
     border: none;
 }
 #info-panel ul{
@@ -181,13 +180,12 @@ hr {
 
 
 
-        /* Events sections */
+        /* Events section */
 
 
 article {
 
     height: fit-content;
-    /* overflow: visible; */
     margin-top: 20px;
     margin-bottom: 40px;
 
@@ -224,7 +222,6 @@ article p {
     height: 80px;
     margin-top: 20px;
     margin-bottom: 25px;
-    /* display: inline; */
 
 }
 
@@ -268,7 +265,7 @@ article p {
     background-color: #8a8a8a;
 }
 .button:focus{
-    background-color: red;
+    background-color: #5a5a5a;
 }
 
 
@@ -327,8 +324,15 @@ footer a:hover {
     cursor: pointer;
     text-transform: uppercase;
 }
+.return-button a {
+    text-decoration: none;
+    color: #fff;
+}
 .return-button:hover {
     background-color: #8a8a8a;
+}
+.return-button:focus{
+    background-color: #5a5a5a;
 }
 
 
@@ -429,5 +433,54 @@ p {
 
 #photos > img {
     width: 100%;
+}
+
+@media screen and (max-width: 1200px){
+    #info-panel {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 950px){
+    #menu {
+        clear: both;
+        float: left;
+       
+    }
+    #menu li {
+        width: 100%;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    #info-panel {
+        margin: auto;
+        padding-right: 10px;
+        /* padding-left: 10px; */
+        width: 90%;
+    }
+    #center-info-panel {
+        padding: 0;
+        float: left;
+        width: 100%;
+    }
+    #right-info-panel {
+        clear: both;
+        float: left;
+        margin-right: 10px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #left-info-panel {
+        float: left;
+        margin-right: 10px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
