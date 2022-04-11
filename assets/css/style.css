@@ -8,7 +8,8 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(223, 237, 236);
+    /* background-color: rgb(223, 237, 236); */
+    background-color: rgb(242, 247, 238);
     color: black;
     min-width: 450px;
 }
@@ -36,16 +37,65 @@ h3 {
 
 }
 
+p {
+    color: black;
+}
+
 hr {
     border-top: 2px solid black;
     width: 100%;
     margin: 15px 0;
 }
 
+#head-container {
+    width: 100%;
+    text-align: center;
+}
+
+.text-wrapper {
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 30%;
+    text-align: center;
+}
 
 
 #logo {
     font-size: 250%;
+    background-color: gray;
+    opacity: 0.7;
+    transition: 0.3 ease-in;
+    color: rgb(252, 247, 216);
+    border: 3px solid gray;
+}
+
+    /* Images and pictures */
+
+#banner {
+    height: 400px;
+    width: 100%;
+    background: url(../images/westport\ _4722d.jpg);
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center left; 
+    
+
+    animation-name: banner-zoom;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+#outer-banner {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes banner-zoom {
+    from{
+        transform: scale(1);
+    }to{
+        transform: scale(1.1);
+    }
 }
 
 /*  Unsuccessful try to make cover text displayed on the top of the banner-picture.
@@ -184,11 +234,9 @@ hr {
 
 
 article {
-
     height: fit-content;
     margin-top: 20px;
     margin-bottom: 40px;
-
 }
 
 article h2 {
@@ -196,21 +244,21 @@ article h2 {
     margin-top: 40px;
     margin-bottom: 20px;
     margin-left: 50px;
-    color: green;
+    color: black;
     border-top: 2px dotted black;
 }
 article h3 {
     padding: 10px;
     margin-bottom: 20px;
     margin-left: 50px;
-    color: green;
+    color: black;
     border-top: 1px dotted black;
 }
 article p {
     width:80%;
     margin-left: 40px;
-    color: green;
-    background-color: white;
+    color: inherit;
+    background-color: inherit;
   
 }
 
@@ -338,39 +386,6 @@ footer a:hover {
 
 
 
-        /* Images and pictures */
-
-#banner {
-    height: 400px;
-    width: 100%;
-    background: url(../images/westport\ _4722d.jpg);
-    background-size: cover;                      
-    background-repeat: no-repeat;
-    background-position: center left; 
- 
-
-    animation-name: banner-zoom;
-    animation-duration: 7s;
-    animation-fill-mode: forwards;
-}
-#outer-banner {
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
-}
-
-@keyframes banner-zoom {
-    from{
-        transform: scale(1);
-    }to{
-        transform: scale(1.1);
-    }
-}
-
-p {
-    color: red;
-}
-
         /* History page */
 
 #history-header h1 {
@@ -444,6 +459,12 @@ p {
     #photos {
         column-count: 2;
     }
+    .text-wrapper {
+        position: absolute;
+        margin-top: -330px;
+        margin-left: 15%;
+        text-align: center;
+    }
 
 }
 
@@ -502,6 +523,20 @@ p {
         border-top: 1px solid black;
         border-bottom: none;
     }
+    .text-wrapper {
+        position: absolute;
+        margin-top: -330px;
+        margin-left: 15%;
+        text-align: center;
+    }
+
+    /* #banner{
+        background: url("/workspace/westport-travel-guide/assets/images/westport_pat1.1.jpg");
+        /* ../images/westport\ _4722d.jpg 
+
+        
+    } */
+    
 
 }
 
