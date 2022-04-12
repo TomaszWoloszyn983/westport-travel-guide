@@ -6,6 +6,10 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* background-color: rgb(223, 237, 236); */
@@ -14,7 +18,7 @@ body {
     min-width: 450px;
 }
 
-        /* Header & logo */
+/* Header & logo */
 
 h1 {
     font-family: Send Flowers;
@@ -23,6 +27,7 @@ h1 {
     margin-left: 30px;
     margin-top: 20px;
 }
+
 h2 {
     font-family: inherit;
     color: black;
@@ -30,6 +35,7 @@ h2 {
     margin-left: 50px;
     margin-top: 20px;
 }
+
 h3 {
 
     padding: 20px 10px;
@@ -45,6 +51,10 @@ hr {
     border-top: 2px solid black;
     width: 100%;
     margin: 15px 0;
+}
+
+.dotted {
+    border-top: 2px dotted black;
 }
 
 #head-container {
@@ -69,21 +79,22 @@ hr {
     border: 3px solid gray;
 }
 
-    /* Images and pictures */
+/* Images and pictures */
 
 #banner {
     height: 400px;
     width: 100%;
     background: url(../images/westport\ _4722d.jpg);
-    background-size: cover;                      
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center left; 
-    
+    background-position: center left;
+
 
     animation-name: banner-zoom;
     animation-duration: 7s;
     animation-fill-mode: forwards;
 }
+
 #outer-banner {
     height: 400px;
     width: 100%;
@@ -91,9 +102,11 @@ hr {
 }
 
 @keyframes banner-zoom {
-    from{
+    from {
         transform: scale(1);
-    }to{
+    }
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -126,7 +139,7 @@ hr {
 */
 
 
-      /* Navigation bar & menu*/
+/* Navigation bar & menu*/
 
 
 #menu {
@@ -136,16 +149,15 @@ hr {
 }
 
 #menu li {
-    float: left;
     list-style-type: none;
-    margin-right: 20px;
-    margin-left: 20px;
     padding: 5px;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu a:hover {
     border-bottom: 2px solid black;
 }
@@ -156,7 +168,7 @@ hr {
 
 
 
-        /* Info panel */
+/* Info panel */
 
 #info-panel {
     height: fit-content;
@@ -166,27 +178,31 @@ hr {
     margin-left: 20%;
     margin-right: 20%;
     padding: 10px;
-    
+
 }
+
 #left-info-panel {
     padding-top: 30px;
     width: 33%;
     float: left;
     min-width: 50px;
-    
+
 }
+
 #right-info-panel {
     padding-top: 30px;
     width: 33%;
     float: right;
     min-width: 50px;
 }
+
 #center-info-panel {
     width: 33%;
     margin: 0 auto;
     min-width: 50px;
-    
+
 }
+
 #container {
     text-align: center;
     font-size: large;
@@ -195,12 +211,13 @@ hr {
     height: 300px;
     margin: 0 auto;
 }
-#coat-of-arms{
+
+#coat-of-arms {
     background: url(../images/Westport_Coat_of_Arms_XS.png);
 
-    background-position: center center; 
+    background-position: center center;
     background-repeat: no-repeat;
-    
+
     padding-top: 110%;
     width: 100%;
     background-size: cover;
@@ -212,25 +229,28 @@ hr {
     color: black;
     text-align: justify;
 }
+
 #info-panel h3 {
     color: black;
     font-size: 120%;
     border-bottom: 1px solid black;
 }
+
 #center-info-panel h2 {
     margin: 15px 0;
     text-align: center;
     color: black;
     border-bottom: 1px solid black;
 }
-#info-panel ul{
+
+#info-panel ul {
     color: black;
     list-style-type: none;
 }
 
 
 
-        /* Events section */
+/* Events section */
 
 
 article {
@@ -247,6 +267,7 @@ article h2 {
     color: black;
     border-top: 2px dotted black;
 }
+
 article h3 {
     padding: 10px;
     margin-bottom: 20px;
@@ -254,15 +275,16 @@ article h3 {
     color: black;
     border-top: 1px dotted black;
 }
+
 article p {
-    width:80%;
+    width: 80%;
     margin-left: 40px;
     color: inherit;
     background-color: inherit;
-  
+
 }
 
-        /* Contact section and Map */
+/* Contact section and Map */
 
 #contact-container {
     border-top: 2px solid black;
@@ -278,16 +300,18 @@ article p {
     width: 30%;
     min-width: 400px;
     height: fit-content;
-    padding:20px;
+    padding: 20px;
     margin-right: 5%;
     margin-left: 50px;
 }
-#contact table tr{
+
+#contact table tr {
     vertical-align: text-top;
     padding-top: 20px;
     margin: 20px 0;
     letter-spacing: 2px;
 }
+
 #ask-question {
     width: 100%;
     min-width: 400px;
@@ -297,9 +321,11 @@ article p {
     grid-template-columns: repeat(2, 1fr);
     background-color: rgba(230, 230, 230, 0.6);
 }
+
 #ask-question:hover {
-    background-color: rgba(0,0,0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
+
 .button {
     background-color: gray;
     text-align: center;
@@ -309,10 +335,12 @@ article p {
     cursor: pointer;
     text-transform: uppercase;
 }
+
 .button:hover {
     background-color: #8a8a8a;
 }
-.button:focus{
+
+.button:focus {
     background-color: #5a5a5a;
 }
 
@@ -333,7 +361,7 @@ article p {
 
 
 
-        /* Footer */
+/* Footer */
 
 footer {
     background-color: grey;
@@ -344,24 +372,28 @@ footer {
     position: fixed;
     bottom: 0;
     right: 0;
-	z-index: 3;
+    z-index: 3;
 
 }
 
 footer a {
-	color: black;
-	text-decoration: none;
-	padding: 0 15px;
+    color: black;
+    text-decoration: none;
+    padding: 0 15px;
 }
+
 footer a:hover {
     border-bottom: 2px solid black;
     color: #fff;
 }
+
 .return {
+    clear: both;
     text-align: center;
-    border-top: 2px dotted black;
     padding: 10px;
+    margin-bottom: 5em;
 }
+
 .return-button {
     background-color: gray;
     margin-bottom: 45px;
@@ -372,37 +404,41 @@ footer a:hover {
     cursor: pointer;
     text-transform: uppercase;
 }
+
 .return-button a {
     text-decoration: none;
     color: #fff;
 }
+
 .return-button:hover {
     background-color: #8a8a8a;
 }
-.return-button:focus{
+
+.return-button:focus {
     background-color: #5a5a5a;
 }
 
 
 
 
-        /* History page */
+/* History page */
 
 #history-header h1 {
     margin: 10px;
-    width: 100%;
     text-align: center;
 }
-#history-header > div {
+
+#history-header>div {
     margin: auto;
     padding-left: 20%;
     padding-right: 20%;
     height: fit-content;
 }
+
 #main-photo {
-    background-position: center center; 
+    background-position: center center;
     background-repeat: no-repeat;
-    
+
     margin: auto;
     width: 100%;
     max-height: 500px;
@@ -419,21 +455,22 @@ footer a:hover {
     text-align: justify;
 }
 
+#old-photo-one,
 #old-photo-two {
-    float: left;
-    width: 500px;
+    width: 35vw;
     padding: 10px;
     margin: 10px;
     position: relative;
 }
 
+#old-photo-two {
+    float: left;
+}
+
 #old-photo-one {
     float: right;
-    width: 500px;
-    padding: 10px;
-    margin: 10px;
-    position: relative;
 }
+
 .article-footer {
     font-size: 70%;
     text-align: right;
@@ -442,7 +479,7 @@ footer a:hover {
 }
 
 
-        /* Gallery Page */
+/* Gallery Page */
 
 #photos {
     clear: both;
@@ -452,19 +489,21 @@ footer a:hover {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     #info-panel {
         margin-left: 10%;
         margin-right: 10%;
         padding: 0;
     }
+
     #photos {
         column-count: 2;
     }
+
     .text-wrapper {
         position: absolute;
         margin-top: -330px;
@@ -474,16 +513,13 @@ footer a:hover {
 
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
     #menu {
         clear: both;
-        /* float: left; */
-       
     }
+
     #menu li {
-        width: 100%;
         text-align: center;
-        margin-right: 10px;
     }
 
     #info-panel {
@@ -492,11 +528,13 @@ footer a:hover {
         padding-left: 50px;
         width: 90%;
     }
+
     #center-info-panel {
         padding: 0;
         float: left;
         width: 100%;
     }
+
     #right-info-panel {
         clear: both;
         float: left;
@@ -505,6 +543,7 @@ footer a:hover {
         margin: 0 auto;
         text-align: center;
     }
+
     #left-info-panel {
         float: left;
         margin-right: 10px;
@@ -512,8 +551,9 @@ footer a:hover {
         margin: 0 auto;
         text-align: center;
     }
+
     article {
-        width:90%;
+        width: 90%;
         padding-left: 50px;
     }
 
@@ -525,10 +565,12 @@ footer a:hover {
         border-top: 1px solid black;
         border-bottom: none;
     }
+
     #center-info-panel h2 {
         border-top: 1px solid black;
         border-bottom: none;
     }
+
     .text-wrapper {
         position: absolute;
         margin-top: -330px;
@@ -536,13 +578,19 @@ footer a:hover {
         text-align: center;
     }
 
-    /* #banner{
-        background: url("/workspace/westport-travel-guide/assets/images/westport_pat1.1.jpg");
-        /* ../images/westport\ _4722d.jpg 
 
-        
-    } */
-    
+
+   
 
 }
 
+@media screen and (max-width: 500px){
+    #old-photo-one,
+    #old-photo-two {
+        width: 90vw;
+
+    }
+    #banner{
+        background: url("../images/westport_pat1.1.jpg") center center no-repeat ;  
+    }
+}
