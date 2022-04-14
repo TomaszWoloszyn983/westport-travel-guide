@@ -82,7 +82,7 @@ hr {
 /* Images and pictures */
 
 #banner {
-    height: 400px;
+    height: 500px;
     width: 100%;
     background: url(../images/westport\ _4722d.jpg);
     background-size: cover;
@@ -111,32 +111,6 @@ hr {
     }
 }
 
-/*  Unsuccessful try to make cover text displayed on the top of the banner-picture.
-
-    #cover-text, #cover-text h2 {
-    color: #fff;
-}
-
-#cover-text {
-    font-size: 130%;
-    font-family: Send Flowers;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, .7);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
-} 
-*/
 
 
 /* Navigation bar & menu*/
@@ -149,8 +123,12 @@ hr {
 }
 
 #menu li {
+    float: left;
     list-style-type: none;
-    padding: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
 }
 
 #menu a {
@@ -441,13 +419,13 @@ footer a:hover {
 
     margin: auto;
     width: 100%;
-    max-height: 500px;
     background-size: auto;
 }
 
 
 .article-container {
-    padding: 10px;
+    width: 80%;
+    margin-left: 20px;
 }
 
 
@@ -458,6 +436,7 @@ footer a:hover {
 #old-photo-one,
 #old-photo-two {
     width: 35vw;
+    min-width: 350px;
     padding: 10px;
     margin: 10px;
     position: relative;
@@ -513,7 +492,7 @@ footer a:hover {
 
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 550px) {
     #menu {
         clear: both;
     }
@@ -578,13 +557,32 @@ footer a:hover {
         text-align: center;
     }
 
+        /* History page */
 
+    .article-text {
+        min-width: 350px;
+    }
+
+    #old-photo-one,
+    #old-photo-two {
+        clear: both;
+        float: none;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        padding: 0;
+        margin: auto;
+     
+}
+    #banner{
+        background: url("../images/westport_pat1.1.jpg") center center no-repeat ;  
+    }
 
    
 
 }
 
-@media screen and (max-width: 500px){
+/* @media screen and (max-width: 500px){
     #old-photo-one,
     #old-photo-two {
         width: 90vw;
@@ -593,4 +591,4 @@ footer a:hover {
     #banner{
         background: url("../images/westport_pat1.1.jpg") center center no-repeat ;  
     }
-}
+} */
