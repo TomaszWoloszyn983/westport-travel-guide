@@ -12,7 +12,6 @@ html {
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* background-color: rgb(223, 237, 236); */
     background-color: rgb(242, 247, 238);
     color: black;
     min-width: 450px;
@@ -71,10 +70,12 @@ hr {
 
 
 #logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
     font-size: 250%;
     background-color: gray;
     opacity: 0.7;
-    transition: 0.3 ease-in;
     color: rgb(252, 247, 216);
     border: 3px solid gray;
 }
@@ -84,7 +85,7 @@ hr {
 #banner {
     height: 500px;
     width: 100%;
-    background: url(../images/westport\ _4722d.jpg);
+    background: url(../images/westport_pat_1920px.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center left;
@@ -205,6 +206,7 @@ hr {
 
 #info-panel p {
     color: black;
+    padding: 15px;
     text-align: justify;
 }
 
@@ -224,6 +226,7 @@ hr {
 #info-panel ul {
     color: black;
     list-style-type: none;
+    padding: 15px;
 }
 
 
@@ -373,6 +376,7 @@ footer a:hover {
 }
 
 .return-button {
+    text-decoration: none;
     background-color: gray;
     margin-bottom: 45px;
     text-align: center;
@@ -390,6 +394,7 @@ footer a:hover {
 
 .return-button:hover {
     background-color: #8a8a8a;
+    text-decoration: underline;
 }
 
 .return-button:focus {
@@ -418,8 +423,9 @@ footer a:hover {
     background-repeat: no-repeat;
 
     margin: auto;
-    width: 100%;
+    width: 90%;
     background-size: auto;
+    padding: 5%;
 }
 
 
@@ -431,7 +437,18 @@ footer a:hover {
 
 .article-text {
     text-align: justify;
+    width: 97%;
+    margin-left: 18px;
+    color: inherit;
+    background-color: inherit;
 }
+/* article p {
+    width: 80%;
+    margin-left: 40px;
+    color: inherit;
+    background-color: inherit;
+
+} */
 
 #old-photo-one,
 #old-photo-two {
@@ -473,6 +490,7 @@ footer a:hover {
 }
 
 @media screen and (max-width: 1200px) {
+    
     #info-panel {
         margin-left: 10%;
         margin-right: 10%;
@@ -497,8 +515,15 @@ footer a:hover {
         clear: both;
     }
 
+   
     #menu li {
         text-align: center;
+        float: none;
+        list-style-type: none;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
     }
 
     #info-panel {
@@ -511,14 +536,14 @@ footer a:hover {
     #center-info-panel {
         padding: 0;
         float: left;
-        width: 100%;
+        width: 90%;
     }
 
     #right-info-panel {
         clear: both;
         float: left;
         margin-right: 10px;
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
         text-align: center;
     }
@@ -526,14 +551,15 @@ footer a:hover {
     #left-info-panel {
         float: left;
         margin-right: 10px;
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
         text-align: center;
     }
 
     article {
-        width: 90%;
-        padding-left: 50px;
+
+        padding-left: 10px;
+    
     }
 
     #photos {
@@ -570,12 +596,13 @@ footer a:hover {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: auto;
-        padding: 0;
+        padding: 20px;
         margin: auto;
      
 }
     #banner{
-        background: url("../images/westport_pat1.1.jpg") center center no-repeat ;  
+        background: url("../images/westport_pat_550px.jpg") center center no-repeat ;  
+        /* background: url("../images/westport_pat1.1.jpg") center center no-repeat ;   */
     }
 
    
