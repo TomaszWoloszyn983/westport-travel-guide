@@ -307,23 +307,37 @@ article p {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.button {
-    background-color: gray;
+.button, .return-button {
     text-align: center;
     padding: 15px;
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
     text-transform: uppercase;
+    text-decoration: none;
+    background-color: gray;
 }
 
-.button:hover {
-    background-color: #8a8a8a;
-}
-
-.button:focus {
+.return.focus, .button:focus {
     background-color: #5a5a5a;
 }
+
+.return {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5em;
+}
+
+.return-button {
+    margin-bottom: 45px;
+}
+
+.button:hover, .return-button:hover {
+    background-color: #8a8a8a;
+    text-decoration: underline;
+}
+
 
 
 #map-wrapper {
@@ -368,38 +382,7 @@ footer a:hover {
     color: #fff;
 }
 
-.return {
-    clear: both;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 5em;
-}
 
-.return-button {
-    text-decoration: none;
-    background-color: gray;
-    margin-bottom: 45px;
-    text-align: center;
-    padding: 15px;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    text-transform: uppercase;
-}
-
-.return-button a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.return-button:hover {
-    background-color: #8a8a8a;
-    text-decoration: underline;
-}
-
-.return-button:focus {
-    background-color: #5a5a5a;
-}
 
 
 
