@@ -30,9 +30,10 @@ All sections are clearly and simply arranged inside the navigation bar which all
 
 - **Footer.** - The last section is Footer that contain information about copyrights and links to the social media such as Facebook, Twitter and Instagram.
 
-### *Validator Testing*
+### **Validator Testing**
 - HTML
     * No errors were detected when passing through the [W3C validator](https://validator.w3.org/nu/).
+    ![html_validation](assets/images/html_validator.jpg)
 - CSS
     * No errors were detected when passing through the [jigsaw.w3 validator](https://jigsaw.w3.org/css-validator)
     ![css_validation](assets/images/css_validator.jpg)
