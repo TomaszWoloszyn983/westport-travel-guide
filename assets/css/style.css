@@ -36,10 +36,8 @@ h2 {
 }
 
 h3 {
-
     padding: 20px 10px;
     margin-bottom: 10px;
-
 }
 
 p {
@@ -64,24 +62,19 @@ hr {
 .text-wrapper {
     position: absolute;
     margin-top: -330px;
-    margin-left: 30%;
+    margin-left: 33%;
     text-align: center;
 }
 
-
 #logo {
-    /* margin-left: auto;
-    margin-right: auto; */
     margin-top: 70px;
     font-size: 300%;
     padding: 20px 10px 10px 10px;
-    /* background-color: gray;
-    opacity: 0.7; */
     color: rgb(252, 247, 216);
     border: 3px solid gray;
 }
 
-/* Images and pictures */
+        /* Images and pictures */
 
 #banner {
     height: 500px;
@@ -90,8 +83,6 @@ hr {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
-
     animation-name: banner-zoom;
     animation-duration: 7s;
     animation-fill-mode: forwards;
@@ -177,7 +168,6 @@ hr {
     width: 33%;
     margin: 0 auto;
     min-width: 50px;
-
 }
 
 #container {
@@ -191,15 +181,12 @@ hr {
 
 #coat-of-arms {
     background: url(../images/Westport_Coat_of_Arms_XS.png);
-
     background-position: center center;
     background-repeat: no-repeat;
-
     padding-top: 110%;
     width: 100%;
     background-size: cover;
 }
-
 
 
 #info-panel p {
@@ -594,13 +581,3 @@ footer a:hover {
     
 }
 
-/* @media screen and (max-width: 500px){
-    #old-photo-one,
-    #old-photo-two {
-        width: 90vw;
-
-    }
-    #banner{
-        background: url("../images/westport_pat1.1.jpg") center center no-repeat ;  
-    }
-} */
