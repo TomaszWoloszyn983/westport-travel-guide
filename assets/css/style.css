@@ -152,25 +152,21 @@ hr {
 
 }
 
-#left-info-panel {
+#left-info-panel, #right-info-panel, #center-info-panel {
     padding-top: 30px;
     width: 33%;
-    float: left;
     min-width: 50px;
-
 }
 
+#left-info-panel {
+    float: left;
+}
 #right-info-panel {
-    padding-top: 30px;
-    width: 33%;
     float: right;
-    min-width: 50px;
 }
 
 #center-info-panel {
-    width: 33%;
     margin: 0 auto;
-    min-width: 50px;
 }
 
 #container {
@@ -246,11 +242,9 @@ article h3 {
 }
 
 article p {
-    width: 80%;
-    margin-left: 40px;
-    color: inherit;
-    background-color: inherit;
-
+    text-align: justify;
+    width: 94%;
+    margin: 10px 0 20px 40px;
 }
 
 /* Contact section and Map */
@@ -326,8 +320,6 @@ article p {
     text-decoration: underline;
 }
 
-
-
 #map-wrapper {
     padding: 20px;
     float: left;
@@ -393,43 +385,35 @@ footer a:hover {
 #main-photo {
     background-position: center center;
     background-repeat: no-repeat;
-
     margin: auto;
     width: 90%;
     background-size: auto;
-    padding: 5%;
+    padding: 3%;
     max-height: 700px;
 }
 
 
 .article-container {
-    width: 80%;
+    width: 94%;
     margin-left: 20px;
+    margin-right: 10px;
 }
-
-
+        /* Articles in this section implement the general article > p settings */
+/* 
 .article-text {
     text-align: justify;
     width: 97%;
     margin-left: 18px;
-    color: inherit;
-    background-color: inherit;
-}
-/* article p {
-    width: 80%;
-    margin-left: 40px;
-    color: inherit;
-    background-color: inherit;
-
 } */
 
 #old-photo-one,
 #old-photo-two {
     width: 35vw;
     min-width: 350px;
-    padding: 10px;
+    padding: 0 30px 0 30px;
     margin: 10px;
     position: relative;
+    right: -20;
 }
 
 #old-photo-two {
@@ -443,7 +427,7 @@ footer a:hover {
 .article-footer {
     font-size: 70%;
     text-align: right;
-    margin: 10px;
+    margin: 10px 10px 30px -90px;
     padding: 10px;
 }
 
