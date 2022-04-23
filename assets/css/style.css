@@ -514,8 +514,11 @@ footer a:hover {
 
     article p {
         text-align: justify;
-        width: 93%;
+        width: 91%;
         margin: 10px 0 20px 40px;
+    }
+    article h3 {
+        margin-left: 25px;
     }
 
     #old-photo-one, #old-photo-two {
@@ -592,6 +595,10 @@ footer a:hover {
         padding-left: 10px;
         margin: 0;
     }
+    article p {
+        margin: 10px 0 20px 35px;
+        width: 79%;
+    }
 
     #photos {
         column-count: 1;
@@ -615,6 +622,23 @@ footer a:hover {
         text-align: center;
     }
 
+    #contact, #map-wrapper{
+        width: 78%;
+        min-width: 320px;
+        height: fit-content;
+        padding: 10px;
+        margin-right: 0;
+        margin-left: 35px;
+    }
+
+    iframe, #ask-question {
+        padding: 0 5% 0 5%;
+        width: 90%;
+        min-width: 350px;
+        max-width: 500px;
+        min-height: 80px;
+    }
+
         /* History page */
 
     .article-text {
@@ -632,6 +656,10 @@ footer a:hover {
         margin: auto;
     }
     
+}
+
+@media screen and (max-width: 420px) {
+
 }
 
 /* Analyze all articles, paragraphs, article > p, articles-text atc.
