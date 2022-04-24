@@ -10,12 +10,13 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(242, 247, 238);
     color: black;
-    min-width: 450px;
+    min-width: 320px;
 }
+
 
 /* Header & logo */
 
@@ -26,7 +27,6 @@ h1 {
     font-family: Send Flowers;
     letter-spacing: 8px;
     color: black;
-    /* margin-left: 30px; */
     margin-top: 20px;
 }
 
@@ -66,7 +66,6 @@ hr {
     position: absolute;
     width: 100%;
     margin-top: -330px;
-    /* margin-left: 33%; */
     text-align: center;
 }
 
@@ -75,8 +74,7 @@ hr {
     width: 100%;
     padding: 20px 10px 10px 10px;
     color: rgb(252, 247, 216);
-    border: 3px solid #cdc4893b;
-    /* Responsive error! Caused by the border propably. */
+    /* border: 3px solid #cdc4893b; */
 }
 
         /* Images and pictures */
@@ -121,23 +119,19 @@ hr {
     font-size: 110%;
     letter-spacing: 4px;
 }
-
 #menu li {
     margin: 5px 2% 5px 2%;
     float: left;
     list-style-type: none;
     padding: 10px 4% 20px 4%;
 }
-
 #menu a {
     text-decoration: none;
     color: inherit;
 }
-
 #menu a:hover {
     border-bottom: 2px solid black;
 }
-
 .active {
     border-bottom: 2px solid black;
 }
@@ -190,7 +184,6 @@ hr {
     background-size: cover;
 }
 
-
 #info-panel p {
     color: black;
     padding: 15px;
@@ -228,16 +221,13 @@ article {
     margin-top: 20px;
     margin-bottom: 40px;
 }
-
 article h2 {
     padding: 10px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    margin-left: 50px;
+    margin: 40px 0 20px 50px;
+
     color: black;
     border-top: 2px dotted black;
 }
-
 article h3 {
     padding: 10px;
     margin-bottom: 20px;
@@ -245,7 +235,6 @@ article h3 {
     color: black;
     border-top: 1px dotted black;
 }
-
 article p {
     text-align: justify;
     width: 94%;
@@ -260,9 +249,7 @@ article p {
     height: 80px;
     margin-top: 20px;
     margin-bottom: 25px;
-
 }
-
 #contact {
     float: left;
     width: 30%;
@@ -272,7 +259,9 @@ article p {
     margin-right: 5%;
     margin-left: 50px;
 }
-
+#contact table {
+    border-bottom: 2px dotted black;
+}
 #contact table tr {
     vertical-align: text-top;
     padding-top: 20px;
@@ -292,6 +281,17 @@ article p {
 
 #ask-question:hover {
     background-color: rgba(0, 0, 0, 0.1);
+}
+#map-wrapper {
+    padding: 20px;
+    float: left;
+    width: 30%;
+    min-width: 400px;
+    margin-bottom: 55px;
+    margin-left: 50px;
+}
+#map {
+    border: none;
 }
 
 .button, .return-button {
@@ -325,19 +325,6 @@ article p {
     text-decoration: underline;
 }
 
-#map-wrapper {
-    padding: 20px;
-    float: left;
-    width: 30%;
-    min-width: 400px;
-    margin-bottom: 55px;
-    margin-left: 50px;
-
-}
-
-#map {
-    border: none;
-}
 
 
 
@@ -353,21 +340,16 @@ footer {
     bottom: 0;
     right: 0;
     z-index: 3;
-
 }
-
 footer a {
     color: black;
     text-decoration: none;
     padding: 0 15px;
 }
-
 footer a:hover {
     border-bottom: 2px solid black;
     color: #fff;
 }
-
-
 
 
 
@@ -397,19 +379,11 @@ footer a:hover {
     max-height: 700px;
 }
 
-
 .article-container {
     width: 94%;
     margin-left: 20px;
     margin-right: 10px;
 }
-        /* Articles in this section implement the general article > p settings */
-/* 
-.article-text {
-    text-align: justify;
-    width: 97%;
-    margin-left: 18px;
-} */
 
 #old-photo-one,
 #old-photo-two {
@@ -432,7 +406,7 @@ footer a:hover {
 .article-footer {
     font-size: 70%;
     text-align: right;
-    margin: 10px 10px 30px -90px;
+    margin: 10px 20px 30px -15px;
     padding: 10px;
 }
 
@@ -454,23 +428,9 @@ footer a:hover {
 
 
 @media screen and (max-width: 1200px) {
-    /* #logo {
-        padding: 20px 10px 10px 10px;
-    } */
-
     h1 {
         font-size: 220%;
     }
-    /* h1 {
-        font-size: 300%;
-        width: 100%;
-        text-align: center;
-        font-family: Send Flowers;
-        letter-spacing: 8px;
-        color: black;
-        margin-left: 30px;
-        margin-top: 20px;
-    } */
 
     #menu {
         display: flexbox;
@@ -478,39 +438,10 @@ footer a:hover {
         text-align: center;
         letter-spacing: 3px;
     }
-    /* 
-    #menu {
-    width: 100%;
-    height: fit-content;
-    margin: 15px 4% 15px 4%;
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-     */
-    
     #menu li {
-       
         padding: 10px 1% 20px 1%;
         margin: 5px 4% 5px 4%;
-        
     }
-    
-    /* #info-panel {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        padding: 0;
-    } */
-    /* #info-panel {
-        height: fit-content;
-        width: 60%;
-        line-height: 20px;
-        margin-bottom: 20px;
-        margin-left: 20%;
-        margin-right: 20%;
-        padding: 10px;
-    
-    } */
 
     article p {
         text-align: justify;
@@ -518,9 +449,8 @@ footer a:hover {
         margin: 10px 0 20px 40px;
     }
     article h3 {
-        margin-left: 25px;
+        padding: 10px 65px 10px 10px;
     }
-
     #old-photo-one, #old-photo-two {
         width: 35vw;
         min-width: 350px;
@@ -533,18 +463,24 @@ footer a:hover {
     #photos {
         column-count: 2;
     }
-
-    /* .text-wrapper {
-        position: absolute;
-        margin-top: -330px;
-        text-align: center;
-    } */
-
 }
 
 @media screen and (max-width: 550px) {
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(242, 247, 238);
+        color: black;
+        min-width: 350px;
+    }
+
+    .text-wrapper {
+        position: absolute;
+        margin-top: -330px;
+        text-align: center;
+    }
     #logo {
-        margin-top: 120px;
+        margin: 120px -20px 10px 20px;
+        width: 90%;
         padding: 20px 10px 10px 10px;
         font-size: 200%;
     }
@@ -554,11 +490,6 @@ footer a:hover {
         max-height: 550px;
     }
 
-    #menu {
-        clear: both;
-    }
-
-   
     #menu li {
         text-align: center;
         float: none;
@@ -614,29 +545,31 @@ footer a:hover {
         border-bottom: none;
     }
 
-    .text-wrapper {
-        position: absolute;
-        left: -40px;
-        margin-top: -330px;
-        margin-left: 15%;
-        text-align: center;
-    }
-
     #contact, #map-wrapper{
         width: 78%;
-        min-width: 320px;
+        min-width: 300px;
         height: fit-content;
-        padding: 10px;
-        margin-right: 0;
         margin-left: 35px;
     }
 
     iframe, #ask-question {
         padding: 0 5% 0 5%;
         width: 90%;
-        min-width: 350px;
+        min-width: 300px;
         max-width: 500px;
-        min-height: 80px;
+    }
+    #contact, #map-wrapper{
+        width: 78%;
+        min-width: 250px;
+        height: fit-content;
+        margin-left: 10px;
+    }
+
+    iframe, #ask-question {
+        padding: 0 5% 0 5%;
+        width: 90%;
+        min-width: 200px;
+        max-width: 300px;
     }
 
         /* History page */
@@ -658,8 +591,80 @@ footer a:hover {
     
 }
 
-@media screen and (max-width: 420px) {
+@media all and (max-width: 420px) {
+    body  {
+        min-width: 320px;
+    }
 
+    .text-wrapper {
+        position: absolute;
+        left: -58px;
+        margin-top: -330px;
+        margin-left: 15%;
+        text-align: center;
+    }
+    #logo {
+        margin: 120px -20px 10px 20px;
+        width: 86%;
+        padding: 20px 10px 10px 10px;
+        color: rgb(252, 247, 216);
+        /* border: 3px solid #cdc4893b; */
+    }
+
+    table, tr, td {
+        display: block;
+    }
+    #contact table{
+        width: 90%;
+        padding: 2px;
+    }
+    #contact table tr {
+        vertical-align: text-top;
+        margin: 5px 0 10px 0;
+        letter-spacing: 2px;
+    }
+    #contact table td {
+        padding: 5px 10px 0 10px;
+        letter-spacing: 1px;
+    }
+
+    #contact, #map-wrapper{
+        width: 78%;
+        min-width: 250px;
+        height: fit-content;
+        margin-left: 10px;
+    }
+    iframe, #ask-question {
+        padding: 0 5% 0 5%;
+        width: 90%;
+        min-width: 200px;
+        max-width: 300px;
+    }
+
+        /* History page */
+
+    .article-text {
+        min-width: 320px;
+    }
+
+    .article-footer {
+        font-size: 70%;
+        text-align: center;
+        margin: 10px 0 30px 35px;
+        padding: 5px;
+    }
+
+    #old-photo-one,
+    #old-photo-two {
+        clear: both;
+        float: none;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        padding: 20px;
+        margin: auto;
+    }
+ 
 }
 
 /* Analyze all articles, paragraphs, article > p, articles-text atc.
