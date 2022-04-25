@@ -5,13 +5,13 @@
 ![Title image](assets/images/wtg_main_page.jpg)
 
 
-This page was created for who are people searching for some information about the town of Westport located in County Mayo at the west coast of Ireland.
-The page provides a brief, useful set of information such as location, population, contact, brief history of the town and a gallery of photos.
+This page was created for people who are searching for some information about the town of Westport located in County Mayo at the west coast of Ireland.
+The page provides a brief and useful set of information such as location, population, contact, brief history of the town and a gallery of photos.
 
 
 ### **Features**
-The page is made of five main sections devided into three subpages:
-It is:
+The page includes five sections devided into three subpages:
+It is as follow:
 - **Home Page** that contain some general informations about the town and also two other subsections:
     * **Events** section presents list of events taking place in the town in the nearest future and it is suppose to be updated as often as it's possible.
 
