@@ -81,7 +81,7 @@ hr {
 
 #logo {
     margin-top: 70px;
-    width: 100%;
+    width: 98%;
     padding: 20px 10px 10px 10px;
     color: rgb(252, 247, 216);
     /* border: 3px solid #cdc4893b; */
@@ -357,18 +357,14 @@ footer a {
     text-decoration: none;
     padding: 0 15px;
 }
-/* footer a:hover {
-    border-bottom: 2px solid black;
-    color: #fff;
-} */
-
 
 
 
 /* History page */
 
 #history-header h1 {
-    margin: 10px;
+    width: 90%;
+    margin: 10px 0 10px 10px;
     text-align: center;
     font-size: 35px;
 }
@@ -466,13 +462,15 @@ footer a {
     #old-photo-one, #old-photo-two {
         width: 35vw;
         min-width: 350px;
-        /* padding: 0px 5px 0 34px; */
-        /* margin: 5px; */
-        /* width: 98%; */
         padding: 2%;
-        margin: 10px 0 10px 0;
         position: relative;
-        right: -20;
+        right: -6px;
+    }
+    #old-photo-one {
+        margin: 10px 10px -4px -3px;
+    }
+    #old-photo-two {
+        margin: 10px 10px 10px 20px;
     }
 
     #photos {
