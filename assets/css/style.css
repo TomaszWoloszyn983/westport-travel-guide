@@ -57,6 +57,16 @@ hr {
     border-top: 2px dotted black;
 }
 
+.fa-brands {
+    font-size: 20px;
+    color: white;
+}
+.fa-brands:hover {
+    font-size: 25px;
+    color: black;
+    
+}
+
 #head-container {
     width: 100%;
     text-align: center;
@@ -334,7 +344,8 @@ footer {
     background-color: grey;
     text-align: center;
     width: 100%;
-    height: 40px;
+    height: fit-content;
+    padding: 10px;
 
     position: fixed;
     bottom: 0;
@@ -346,10 +357,10 @@ footer a {
     text-decoration: none;
     padding: 0 15px;
 }
-footer a:hover {
+/* footer a:hover {
     border-bottom: 2px solid black;
     color: #fff;
-}
+} */
 
 
 
@@ -372,7 +383,7 @@ footer a:hover {
 #main-photo {
     background-position: center center;
     background-repeat: no-repeat;
-    margin: 10px 20px 10px 40px;
+    margin: 10px 20px 10px 10px;
     width: 90%;
     background-size: auto;
     padding: 3%;
@@ -406,8 +417,9 @@ footer a:hover {
 .article-footer {
     font-size: 70%;
     text-align: right;
-    margin: 10px 20px 30px -15px;
-    padding: 10px;
+    width: 40%;
+    padding: 10px 30px 10px 30px;
+    margin: 10px -0 10px 45%;
 }
 
 
@@ -454,8 +466,11 @@ footer a:hover {
     #old-photo-one, #old-photo-two {
         width: 35vw;
         min-width: 350px;
-        padding: 0px 5px 0 34px;
-        margin: 5px;
+        /* padding: 0px 5px 0 34px; */
+        /* margin: 5px; */
+        /* width: 98%; */
+        padding: 2%;
+        margin: 10px 0 10px 0;
         position: relative;
         right: -20;
     }
@@ -501,8 +516,8 @@ footer a:hover {
     #info-panel {
         margin: auto;
         padding-right: 10px;
-        padding-left: 50px;
-        width: 90%;
+        padding-left: 25px;
+        width: 96%;
     }
 
     #center-info-panel {
@@ -514,7 +529,6 @@ footer a:hover {
     #right-info-panel, #left-info-panel {
         clear: both;
         float: left;
-        margin-right: 10px;
         width: 90%;
         margin: 0 auto;
         text-align: center;
@@ -527,8 +541,8 @@ footer a:hover {
         margin: 0;
     }
     article p {
-        margin: 10px 0 20px 35px;
-        width: 79%;
+        margin: 10px 0 20px 10px;
+        width: 88%;
     }
 
     #photos {
@@ -574,19 +588,42 @@ footer a:hover {
 
         /* History page */
 
+    #history-header {
+        padding: 10px;
+        margin: 0 10px 0 10px;
+    }
+    #history-header h1 {
+        margin: 0px;
+        font-size: 30px;
+        padding: 10px;
+    }
+    #main-photo {
+        min-width: 270px;
+        width: 98%;
+        padding: 2%;
+        margin: 10px 0 10px 0;
+        background-size: cover;
+    }
+
     .article-text {
         min-width: 320px;
+    }
+    .article-footer {
+        font-size: 70%;
+        text-align: center;
+        width: 87%;
+        padding: 10px 30px 10px 30px;
+        margin: 10px -0 10px 45%;
     }
 
     #old-photo-one,
     #old-photo-two {
         clear: both;
-        float: none;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: auto;
-        padding: 20px;
-        margin: auto;
+        float: none;    
+        min-width: 250px;
+        width: 90%;
+        padding: 2%;
+        margin: 10px 0 10px 0;
     }
     
 }
@@ -641,7 +678,16 @@ footer a:hover {
         max-width: 300px;
     }
 
+    #info-panel h3 {
+        padding: 15px 54px 0px 34px;
+    }
+
         /* History page */
+
+    .article-container {
+        width: 94%;
+        margin-right: 22px;
+    }
 
     .article-text {
         min-width: 320px;
@@ -650,11 +696,11 @@ footer a:hover {
     .article-footer {
         font-size: 70%;
         text-align: center;
-        margin: 10px 0 30px 35px;
-        padding: 5px;
+        margin: 10px 0 30px 18px;
+        padding: 2px;
     }
 
-    #old-photo-one,
+    /* #old-photo-one,
     #old-photo-two {
         clear: both;
         float: none;
@@ -663,7 +709,7 @@ footer a:hover {
         background-size: auto;
         padding: 20px;
         margin: auto;
-    }
+    } */
  
 }
 
