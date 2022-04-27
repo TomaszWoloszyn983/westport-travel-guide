@@ -281,7 +281,7 @@ article p {
     width: 30%;
     min-width: 400px;
     height: fit-content;
-    padding: 5%;
+    padding: 15px 10% 15px 10px;
     /* margin-right: 5%;
     margin-left: 50px; */
 }
@@ -383,23 +383,21 @@ footer a {
 /* History page */
 
 #history-header h1 {
-    width: 90%;
-    margin: 10px 0 10px 10px;
+    /* width: 90%;
+    margin: 10px 0 10px 10px; */
     text-align: center;
     font-size: 35px;
 }
 
 #history-header>div {
-    margin: auto;
-    padding-left: 20%;
-    padding-right: 20%;
+    /* margin: auto; */
+    padding: 0 20%;
     height: fit-content;
 }
 
 #main-photo {
     background-position: center center;
     background-repeat: no-repeat;
-    margin: 10px 20px 10px 10px;
     width: 90%;
     background-size: auto;
     padding: 3%;
@@ -408,7 +406,7 @@ footer a {
 
 .article-container {
     width: 94%;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 10px;
 }
 
@@ -416,18 +414,20 @@ footer a {
 #old-photo-two {
     width: 35vw;
     min-width: 350px;
-    padding: 0 30px 0 30px;
+    padding: 0 0;
     margin: 10px;
     position: relative;
-    right: -20px;
+    /* right: -20px; */
 }
 
 #old-photo-two {
     float: left;
+    right: 7px;
 }
 
 #old-photo-one {
     float: right;
+    right: -18px;
 }
 
 .article-footer {
@@ -502,7 +502,7 @@ footer a {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: rgb(242, 247, 238);
         color: black;
-        min-width: 350px;
+        /* min-width: 350px; */
     }
 
     .text-wrapper {
@@ -583,33 +583,27 @@ footer a {
     }
 
     iframe, #ask-question {
-        padding: 0 5% 0 5%;
+        padding: 0;
         width: 90%;
-        /* min-width: 300px; */
+        min-width: 300px;
         max-width: 500px;
     }
     #contact, #map-wrapper{
         width: 78%;
         min-width: 250px;
         height: fit-content;
-        /* margin-left: 10px; */
+        margin-left: 0;
     }
 
-    iframe, #ask-question {
-        padding: 0 5% 0 5%;
-        /* width: 90%; */
-        min-width: 200px;
-        max-width: 300px;
-    }
+
 
         /* History page */
 
     #history-header {
         padding: 10px;
-        margin: 0 10px 0 10px;
     }
     #history-header h1 {
-        margin: 0px;
+        /* margin: 0px; */
         font-size: 30px;
         padding: 10px;
     }
@@ -621,15 +615,13 @@ footer a {
         background-size: cover;
     }
 
-    .article-text {
-        /* min-width: 320px; */
-    }
+
     .article-footer {
         font-size: 70%;
         text-align: center;
-        width: 87%;
-        padding: 10px 30px 10px 30px;
-        margin: 10px -0 10px 45%;
+        margin: 10px 0 30px 18px;
+        padding: 2px 5% 30px 5%;
+        width: fit-content;
     }
 
     #old-photo-one,
@@ -639,7 +631,7 @@ footer a {
         min-width: 250px;
         width: 90%;
         padding: 2%;
-        margin: 10px 0 10px 0;
+        margin: 10px 0 10px 20px;
     }
     
 }
