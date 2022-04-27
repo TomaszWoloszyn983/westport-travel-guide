@@ -453,6 +453,18 @@ footer a {
     width: 100%;
 }
 
+        /* Confirmation Page */
+
+#message-text {
+
+    font-size: 180%;
+    text-align: center;
+    padding: 30px 10px 10px 10px;
+}
+#message-text p{
+    color: red;
+}
+
 
 
 @media screen and (max-width: 1200px) {
