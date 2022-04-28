@@ -31,13 +31,10 @@ All sections are clearly and simply arranged inside the navigation bar which all
 
 - **Footer.** - The last section is Footer that contain information about copyrights and links to the social media such as Facebook, Twitter and Instagram.
 
-### **Credits**
-- The article on the history of the town of Westport comes from Mayo-ireland.ie and it is available on this link:
-    https://www.mayo-ireland.ie/en/towns-villages/westport/history/foundation-of-westport.html
-- Also historical photos of Westport were taken from:
- * https://scontent-dub4-1.xx.fbcdn.net/v/t1.6435-9/125513691_3768247179886864_1059465307910225672_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=825194&_nc_ohc=3-eaXxE-H1YAX8A0XxK&_nc_ht=scontent-dub4-1.xx&oh=00_AT82hMQp8MZIAvJqimRiJf6OcE6ElAFPk8SotkjlSJP12w&oe=6290DDF5
- * https://i.pinimg.com/originals/1f/d3/86/1fd386fe62235aa22f8449d736361d8a.jpg
- * https://www.westporthouse.ie/wp-content/uploads/2020/09/1915.jpg
+
+### **Testing**
+All tests are available in the separate testing section under this link: [Testing](documentation/TESTING.md)
+
 
 ## Deployment
 
@@ -57,6 +54,15 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TomaszWoloszyn983/westport-travel-guide)
+
+
+### **Credits**
+- The article on the history of the town of Westport comes from Mayo-ireland.ie and it is available on this link:
+    https://www.mayo-ireland.ie/en/towns-villages/westport/history/foundation-of-westport.html
+- Also historical photos of Westport were taken from:
+ * https://scontent-dub4-1.xx.fbcdn.net/v/t1.6435-9/125513691_3768247179886864_1059465307910225672_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=825194&_nc_ohc=3-eaXxE-H1YAX8A0XxK&_nc_ht=scontent-dub4-1.xx&oh=00_AT82hMQp8MZIAvJqimRiJf6OcE6ElAFPk8SotkjlSJP12w&oe=6290DDF5
+ * https://i.pinimg.com/originals/1f/d3/86/1fd386fe62235aa22f8449d736361d8a.jpg
+ * https://www.westporthouse.ie/wp-content/uploads/2020/09/1915.jpg
 
 
 
