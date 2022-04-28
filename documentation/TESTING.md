@@ -38,3 +38,5 @@
 - Gallery Page: 
         ![Gallery Page](../assets/images/lighthouse/lighthouse_report_gallery_page_s.jpg)
 
+### *There are no unfixed bugs that I am aware of.
+
