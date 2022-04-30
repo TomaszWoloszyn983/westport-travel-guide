@@ -26,7 +26,7 @@ It is as follows:
       ![History section](assets/images/readMe/send_button_click_s.jpg)
       ![History section](assets/images/readMe/send_button_reaction_s.jpg)
 
-      Future feature for this section would be creating a diagram that would collect the user e-mail address for feetback.
+      Future feature for this section would be creating a diagram that would collect the user e-mail address for feedback.
 
     
 
