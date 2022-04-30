@@ -1,7 +1,7 @@
 ### **Validator Testing**
 - HTML
     * No errors were detected when passing through the [W3C validator](https://validator.w3.org/nu/).
-    ![html_validation](../assets/images/html_validator.jpg).
+    ![html_validation](../assets/images/testing/html_validator.jpg).
     * Links to the validation testing for all my Html files:
         * https://validator.w3.org/nu/?doc=https://tomaszwoloszyn983.github.io/westport-travel-guide/index.html
         * https://validator.w3.org/nu/?doc=https://tomaszwoloszyn983.github.io/westport-travel-guide/history.html
@@ -16,19 +16,19 @@
 ### **Browsers compatibility**
 - The Web Page is compatibile with every tested browser, such as:
     * Google Chrome:
-     - ![Google Chrome](../assets/images/home_page_desctop_view_large_s.jpg)
+     - ![Google Chrome](../assets/images/testing/home_page_desctop_view_large_s.jpg)
     * Microsoft Edge: 
-     - ![Microsoft Edge](../assets/images/microsoft_edge_large_view_s.jpg)
+     - ![Microsoft Edge](../assets/images/testing/microsoft_edge_large_view_s.jpg)
     * Avast Browser: 
-     - ![Avast Browser](../assets/images/avast_medium_size_view_s.jpg)
+     - ![Avast Browser](../assets/images/testing/avast_medium_size_view_s.jpg)
     * Netbox Browser: 
-     - ![Netbox Browser](../assets/images/netboxbrowser_medium_size_view_s.jpg)
+     - ![Netbox Browser](../assets/images/testing/netboxbrowser_medium_size_view_s.jpg)
 - It si also compatibile with smart phone browsers
     * Mobile phone Google Chrome Borwser 
-        * ![Mobile Browser](../assets/images/home_page_mobile_view_s.jpg)
-        * ![Horizontal View](../assets/images/history_page_mobile_view_s.jpg)
-        * ![Gallery Page](../assets/images/gallery_page_mobile_view_vertically_s.jpg)
-        * ![Gallery horizontal view](../assets/images/gallery_page_mobile_view_horizontally_s.jpg)
+        * ![Mobile Browser](../assets/images/testing/home_page_mobile_view_s.jpg)
+        * ![Horizontal View](../assets/images/testing/history_page_mobile_view_s.jpg)
+        * ![Gallery Page](../assets/images/testing/gallery_page_mobile_view_vertically_s.jpg)
+        * ![Gallery horizontal view](../assets/images/testing/gallery_page_mobile_view_horizontally_s.jpg)
 
 ### **Lighthouse reports**
 - Home Page: 

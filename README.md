@@ -2,17 +2,17 @@
 
 ## Welcome to my page! 
 
-![Title image](assets/images/wtg_main_page.jpg)
+![Title image](assets/images/readMe/wtg_gallery_page.jpg)
 
 
-This page was created for people who are searching for some information about the town of Westport located in County Mayo at the west coast of Ireland.
+This page was created to provide a bunch of information about the town of Westport located in County Mayo at the west coast of Ireland.
 The page provides a brief and useful set of information such as location, population, contact, brief history of the town and a gallery of photos.
 
 
 ### **Features**
 The page includes five sections devided into three subpages:
-It is as follow:
-- **Home Page** that contain some general informations about the town and also two other subsections:
+It is as follows:
+- **Home Page** that contain some general informations about the town. This section also contains two other subsections:
     * **Events** section presents list of events taking place in the town in the nearest future and it is suppose to be updated as often as it's possible.
 
     * **Contact** section and the map with pointed the locations of Westport. It also contains the address of the Town Hall, contact phone number and email address.
@@ -22,10 +22,10 @@ It is as follow:
 - **History Page** that contain a brief history of the town and a few photos presenting historical views of the town. 
 The acticle on the history originally comes from MyIreland Page and you can find it by clicking in this link: https://www.mayo-ireland.ie/en/towns-villages/westport/history/foundation-of-westport.html 
 
-![History section](assets/images/wtg_history_page_400px.jpg)
+![History section](assets/images/readMe/wtg_history_page_400px.jpg)
 - **Gallery Page** contains a collection of photos showing contemporary views of the town. All photos are taken by the author of this webside and are protected by copyrights.
 
-![Gallery section](assets/images/wtg_gallery_page.jpg)
+![Gallery section](assets/images/readMe/wtg_gallery_page.jpg)
 
 All sections are clearly and simply arranged inside the navigation bar which allows for an easy access to each of them. 
 

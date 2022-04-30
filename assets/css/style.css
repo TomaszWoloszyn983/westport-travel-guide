@@ -27,7 +27,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: yellow;
+    color: green;
 }
 
 h1 {
@@ -195,7 +195,7 @@ hr {
 }
 
 #coat-of-arms {
-    background: url(../images/Westport_Coat_of_Arms_XS.png);
+    background: url(../images/westport_coat_of_arms.png);
     background-position: center center;
     background-repeat: no-repeat;
     padding-top: 110%;
