@@ -1,4 +1,5 @@
-### **Validator Testing**
+
+## **Validator Testing**
 - HTML
     * No errors were detected when passing through the [W3C validator](https://validator.w3.org/nu/).
     ![html_validation](../assets/images/testing/html_validator.jpg).
@@ -11,9 +12,14 @@
     * No errors were detected when passing through the [jigsaw.w3 validator](https://jigsaw.w3.org/css-validator). Link to the test
          https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftomaszwoloszyn983.github.io%2Fwestport-travel-guide
 
+## **Responsiveness** 
+- The project was responsive tested on https://ui.dev/amiresponsive and it is responsive for every type of devices such as desktop computers, laptops, tablets and smart phones.
 
+ ![responsiveness](../assets/images/readMe/amIResponive_black_background.jpg)
 
-### **Browsers compatibility**
+ The view is available [here](https://ui.dev/amiresponsive?url=https://tomaszwoloszyn983.github.io/westport-travel-guide/index.html#contact)
+
+## **Browsers compatibility**
 - The Web Page is compatibile with every tested browser, such as:
     * Google Chrome:
      - ![Google Chrome](../assets/images/testing/home_page_desctop_view_large_s.jpg)
@@ -24,13 +30,13 @@
     * Netbox Browser: 
      - ![Netbox Browser](../assets/images/testing/netboxbrowser_medium_size_view_s.jpg)
 - It si also compatibile with smart phone browsers
-    * Mobile phone Google Chrome Borwser 
+    * Mobile phone Google Chrome Browser 
         * ![Mobile Browser](../assets/images/testing/home_page_mobile_view_s.jpg)
         * ![Horizontal View](../assets/images/testing/history_page_mobile_view_s.jpg)
         * ![Gallery Page](../assets/images/testing/gallery_page_mobile_view_vertically_s.jpg)
         * ![Gallery horizontal view](../assets/images/testing/gallery_page_mobile_view_horizontally_s.jpg)
 
-### **Lighthouse reports**
+## **Lighthouse reports**
 - Home Page: 
         ![Home Page](../assets/images/lighthouse/lighthouse_report_home_page_s.jpg)
 - History Page: 
@@ -38,5 +44,5 @@
 - Gallery Page: 
         ![Gallery Page](../assets/images/lighthouse/lighthouse_report_gallery_page_s.jpg)
 
-### *There are no unfixed bugs that I am aware of.
+## *There are no unfixed bugs that I am aware of.
 
