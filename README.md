@@ -40,8 +40,11 @@ The acticle on the history originally comes from MyIreland Page and you can find
   ![Gallery section](assets/images/readMe/wtg_gallery_page.jpg)
 
 - **Navigation bar**
-All sections are clearly and simply arranged inside the navigation bar which allows for an easy access to each of them. 
-The navigation bar contains five buttons which correspond with each of the five sections of the page and provides links to them.
+  All sections are clearly and simply arranged inside the navigation bar which allows for an easy access to each of them. 
+
+  ![Navigation bar](assets/images/readMe/nav_bar1.jpg)
+
+  The navigation bar contains five buttons which correspond with each of the five sections of the page and provides links to them.
 
   Future feature about this section is to improve its layout and responsiveness for screen sizes between 551px and 667px where the layout collapses into two rows instead of one.
 
