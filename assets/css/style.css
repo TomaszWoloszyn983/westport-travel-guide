@@ -573,7 +573,8 @@ footer a {
   
   
     #map-wrapper {
-        margin: 0px 0px 0px -18px;
+        margin: 0;
+        ;
     }
 
 
@@ -647,7 +648,7 @@ footer a {
         padding: 0;
     }
     #map-wrapper {
-        margin: 0px 0px 0px -7px;
+        margin: 0px 0px 0px 17px;
     }
 
     #info-panel h3 {
