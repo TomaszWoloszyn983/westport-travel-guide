@@ -5,7 +5,7 @@
 ![Title image](assets/images/readMe/amIResponive_black_background.jpg)
 
 
-This page was created to provide a bunch of information about the town of Westport located in County Mayo at the west coast of Ireland in short and easy way.
+This page was created to provide helpful information about the town of Westport, located in County Mayo at the west coast of Ireland.
 The page provides a brief and useful set of information such as location, population, contact, brief history of the town and a gallery of photos.
 
 
@@ -14,14 +14,14 @@ The page provides a brief and useful set of information such as location, popula
 ## Features
 The page includes five sections devided into three subpages:
 It is as follows:
-- **Home Page** that contain some general informations about the town. This section also contains two other subsections:
-    * **Events** section presents list of events taking place in the town in the nearest future and it is suppose to be updated as often as it's possible.
+- **Home Page** that contains some general information about the town. This section also contains two other subsections:
+    * **Events** this section contains the list of events taking place in the town in the nearest future and it will be updated as often as it's possible.
 
-    * **Contact** section and the map with pointed the locations of Westport. It also contains the address of the Town Hall, contact phone number and email address.
-    The user also can post a question to the towns information center. This section needs some updates, such as applying the address for posting the massage. Temporarily an attempt to send a message effects with being redirected back to the Home Page. 
-    The "ask question" form is also protected from posting empty messages. 
+    * **Contact** section and the map with pointed locations of Westport. It also contains the address of the Town Hall, contact phone number and email address.
+    The user also can post a question to the town's information center. This section needs some updates, such as applying the address for sending the messages. The user is re-directed to the home page after trying to send the message.  
+    The "ask question" form also prevents from submitting the empty messages.
 
-      Clicking the Send button will result with being redirected to the home page as you can se on the pictures below:
+      After clicking "Send" button, the user is redirected to the home page as you can se on the pictures below:
 
 
       ![History section](assets/images/readMe/send_button_click_s.jpg)
@@ -31,7 +31,7 @@ It is as follows:
 
     
 
-- **History Page** that contain a brief history of the town and a few photos presenting historical views of the town. 
+- **History Page** that contains a brief history of the town and a few photos presenting historical views of the town. 
 The acticle on the history originally comes from MyIreland Page and you can find it by clicking in this link: https://www.mayo-ireland.ie/en/towns-villages/westport/history/foundation-of-westport.html 
 
   ![History section](assets/images/readMe/wtg_history_page_400px.jpg)
@@ -63,8 +63,7 @@ The acticle on the history originally comes from MyIreland Page and you can find
 
 ## Testing
 Every page in this project was validation tested and it is responsive for every type of devices from desktop computers to mobile phone screen.
-More details about tesings are available in the separate testing section [here](documentation/TESTING.md).
-Or in the dedicated directory documentation/TESTING.md
+More details about tesings are available in the separate testing section [here](documentation/TESTING.md) or in the dedicated directory documentation/TESTING.md
 
 
 
