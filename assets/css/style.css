@@ -222,7 +222,7 @@ hr {
 
 article {
     width: 90%;
-    margin: 10% auto;
+    margin: 7% auto;
 
 }
 article h2 {
@@ -567,15 +567,10 @@ footer a {
         width: 78%;
         min-width: 250px;
         height: fit-content;
-        margin: 20px 0px 20px 17px;
+        margin: 20px 4% 20px 4%;
         padding: 10px 0px;
     }
   
-  
-    #map-wrapper {
-        margin: 0;
-        ;
-    }
 
 
 
@@ -646,9 +641,6 @@ footer a {
     }
     iframe, #ask-question {
         padding: 0;
-    }
-    #map-wrapper {
-        margin: 0px 0px 0px 17px;
     }
 
     #info-panel h3 {
